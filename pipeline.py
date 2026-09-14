@@ -18,6 +18,7 @@ import asyncio
 import json
 import os
 from dataclasses import dataclass, field, asdict
+from time import time
 from typing import Optional
 
 from dotenv import load_dotenv
@@ -28,6 +29,9 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 import cache
 import tools
+
+import random
+from google.genai.errors import ClientError
 
 load_dotenv(override=True)
 
@@ -69,13 +73,28 @@ def _as_text(content) -> str:
 
 
 def ask(prompt_id: str, prompt_value) -> str:
-    """Invoke the model, caching on the rendered prompt text."""
+    """Invoke the model, caching on the rendered prompt text.
+
+    The free tier allows only a few requests per minute, so a 429 is expected
+    rather than exceptional. Back off and retry instead of failing the run.
+    """
     rendered = str(prompt_value)
-    raw = cache.cached(
-        f"llm/{prompt_id}",
-        rendered,
-        lambda: llm.invoke(prompt_value).content,
-    )
+
+    def call():
+        delay = 8
+        for attempt in range(6):
+            try:
+                return llm.invoke(prompt_value).content
+            except Exception as exc:
+                if "RESOURCE_EXHAUSTED" not in str(exc) and "429" not in str(exc):
+                    raise
+                if attempt == 5:
+                    raise
+                time.sleep(delay + random.uniform(0, 3))
+                delay = min(delay * 1.6, 60)
+        raise RuntimeError("unreachable")
+
+    raw = cache.cached(f"llm/{prompt_id}", rendered, call)
     return _as_text(raw)
 
 
