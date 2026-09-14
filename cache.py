@@ -67,7 +67,7 @@ def stats() -> dict:
     if not CACHE_DIR.exists():
         return {}
     return {
-        folder.name: len(list(folder.glob("*.json")))
+        folder.name: len(list(folder.rglob("*.json")))
         for folder in CACHE_DIR.iterdir()
         if folder.is_dir()
     }

@@ -53,14 +53,30 @@ class AuditResult:
 
 # ------------------------------------------------- helper: cached LLM invoke
 
+def _as_text(content) -> str:
+    """LangChain 1.x returns content as a list of blocks; flatten to text."""
+    if isinstance(content, str):
+        return content
+    if isinstance(content, list):
+        parts = []
+        for block in content:
+            if isinstance(block, str):
+                parts.append(block)
+            elif isinstance(block, dict):
+                parts.append(block.get("text", ""))
+        return "".join(parts)
+    return str(content)
+
+
 def ask(prompt_id: str, prompt_value) -> str:
     """Invoke the model, caching on the rendered prompt text."""
     rendered = str(prompt_value)
-    return cache.cached(
+    raw = cache.cached(
         f"llm/{prompt_id}",
         rendered,
         lambda: llm.invoke(prompt_value).content,
     )
+    return _as_text(raw)
 
 
 # ------------------------------------------------- PATTERN: Routing (Ch. 2)
@@ -155,32 +171,35 @@ critic_prompt = ChatPromptTemplate.from_messages([
 ])
 
 
-def verify(docs: str, quotes: list) -> str:
+def verify(docs: str, quotes: list) -> tuple:
     """
-    Two-layer check.
+    Verify each quote independently against the source text.
 
-    Layer 1 is deterministic: does the quote literally occur in the source?
-    The Reflection slides call a deterministic check inside the loop the
-    strongest form of critique, and substring matching is exactly that.
+    Returns (verdict, kept_quotes). A quote that does not appear verbatim in
+    the source is dropped rather than discarding the whole extraction — the
+    model sometimes paraphrases one item in an otherwise accurate list.
 
-    Layer 2 is the LLM critic, which catches near-misses that differ only by
-    whitespace or ellipsis.
+    The check is deterministic: normalise whitespace, then test for literal
+    containment. The Reflection chapter notes that a deterministic check inside
+    the loop is the strongest form of critique, and substring matching is
+    exactly that — it cannot itself hallucinate.
     """
     if not quotes:
-        return "n/a"
+        return "n/a", []
 
     haystack = " ".join(docs.split()).lower()
-    missing = [q for q in quotes if " ".join(q.split()).lower() not in haystack]
+    kept, dropped = [], []
+    for q in quotes:
+        if " ".join(q.split()).lower() in haystack:
+            kept.append(q)
+        else:
+            dropped.append(q)
 
-    if not missing:
-        return "VERIFIED (exact match)"
-
-    value = critic_prompt.invoke({
-        "docs": docs[:12000],
-        "quotes": "\n".join(f"- {q}" for q in quotes),
-    })
-    verdict = ask("critic", value).strip()
-    return verdict.split("\n")[0][:200]
+    if not dropped:
+        return f"VERIFIED ({len(kept)}/{len(quotes)})", kept
+    if kept:
+        return f"PARTIAL ({len(kept)}/{len(quotes)} verified)", kept
+    return f"REJECTED (0/{len(quotes)} verified)", []
 
 
 # ------------------------------------------------- one repository, end to end
@@ -211,12 +230,10 @@ def audit_one(repo: str) -> AuditResult:
     result.ethics_quotes = extracted.get("quotes", [])
     result.notes = extracted.get("summary", "")
 
-    # Reflection — verify the quotes are really in the source
-    result.verification = verify(docs, result.ethics_quotes)
-    if result.verification.startswith("REJECTED"):
-        result.ethics_quotes = []
-        result.has_ethics_statement = False
-        result.notes += "  [quotes rejected by critic]"
+    
+    # Reflection — verify each quote is really in the source
+    result.verification, result.ethics_quotes = verify(docs, result.ethics_quotes)
+    result.has_ethics_statement = bool(result.ethics_quotes)
 
     return result
 
@@ -241,7 +258,20 @@ async def audit_all(repos: list, concurrency: int = 4) -> list:
 
 
 def audit(repos: list, concurrency: int = 4) -> list:
-    """Synchronous entry point for notebooks."""
+    """
+    Synchronous entry point.
+
+    Jupyter already runs an event loop, so asyncio.run() raises there. When a
+    loop is already running we schedule the coroutine on it via nest_asyncio;
+    otherwise we start one normally.
+    """
+    try:
+        asyncio.get_running_loop()
+    except RuntimeError:
+        return asyncio.run(audit_all(repos, concurrency))
+
+    import nest_asyncio
+    nest_asyncio.apply()
     return asyncio.run(audit_all(repos, concurrency))
 
 

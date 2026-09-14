@@ -1,0 +1,33 @@
+[
+  {
+    "repo": "cowrie/cowrie",
+    "classification": "honeypot",
+    "classification_reason": "",
+    "has_ethics_statement": false,
+    "ethics_quotes": [],
+    "verification": "n/a",
+    "notes": "NO ETHICS CONTENT."
+  },
+  {
+    "repo": "telekom-security/tpotce",
+    "classification": "honeypot",
+    "classification_reason": "",
+    "has_ethics_statement": true,
+    "ethics_quotes": [
+      "You install and run T-Pot within your responsibility. Choose your deployment wisely as a system compromise can never be ruled out.",
+      "Report responsibly.",
+      "Honeypots - by design - should not host any sensitive data. Make sure you don't add any."
+    ],
+    "verification": "PARTIAL (3/4 verified)",
+    "notes": "The documentation outlines user operational risks, responsible disclosure expectations, privacy guidelines regarding sensitive data, and instructions for opting out of default telemetry data sharing."
+  },
+  {
+    "repo": "thinkst/opencanary",
+    "classification": "honeypot",
+    "classification_reason": "",
+    "has_ethics_statement": false,
+    "ethics_quotes": [],
+    "verification": "n/a",
+    "notes": "NO ETHICS CONTENT."
+  }
+]
