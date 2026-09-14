@@ -63,7 +63,7 @@ def cached(namespace: str, payload: str, produce: Callable[[], Any]) -> Any:
 
 
 def stats() -> dict:
-    """Count cached entries per namespace — useful for the demo writeup."""
+    """Count cached entries per namespace - useful for the demo writeup."""
     if not CACHE_DIR.exists():
         return {}
     return {
@@ -74,7 +74,7 @@ def stats() -> dict:
 
 
 def clear(namespace: Optional[str] = None) -> None:
-    """Delete cached entries — all of them, or just one namespace."""
+    """Delete cached entries - all of them, or just one namespace."""
     target = CACHE_DIR / namespace if namespace else CACHE_DIR
     if not target.exists():
         return

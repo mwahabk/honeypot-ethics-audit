@@ -1,5 +1,5 @@
 """
-Honeypot documentation audit — an agentic pipeline.
+Honeypot documentation audit - an agentic pipeline.
 
 Each of the five patterns from Chapters 1-5 does real work here:
 
@@ -101,7 +101,7 @@ def classify(repo: str, metadata: str, readme: str) -> str:
     for candidate in ("honeypot", "detection_tool", "other"):
         if candidate in label:
             return candidate
-    return "other"          # default branch — unexpected labels never crash
+    return "other"          # default branch - unexpected labels never crash
 
 
 # ------------------------------------------ PATTERN: Prompt Chaining (Ch. 1)
@@ -176,13 +176,13 @@ def verify(docs: str, quotes: list) -> tuple:
     Verify each quote independently against the source text.
 
     Returns (verdict, kept_quotes). A quote that does not appear verbatim in
-    the source is dropped rather than discarding the whole extraction — the
+    the source is dropped rather than discarding the whole extraction - the
     model sometimes paraphrases one item in an otherwise accurate list.
 
     The check is deterministic: normalise whitespace, then test for literal
     containment. The Reflection chapter notes that a deterministic check inside
     the loop is the strongest form of critique, and substring matching is
-    exactly that — it cannot itself hallucinate.
+    exactly that - it cannot itself hallucinate.
     """
     if not quotes:
         return "n/a", []
@@ -207,7 +207,7 @@ def verify(docs: str, quotes: list) -> tuple:
 def audit_one(repo: str) -> AuditResult:
     result = AuditResult(repo=repo)
 
-    # Tool Use — real GitHub API calls
+    # Tool Use - real GitHub API calls
     metadata = tools.get_metadata(repo)
     readme = tools.get_readme(repo)
     doc_files = tools.get_doc_files(repo)
@@ -216,14 +216,14 @@ def audit_one(repo: str) -> AuditResult:
         result.notes = "no README available"
         return result
 
-    # Routing — classification decides which branch runs
+    # Routing - classification decides which branch runs
     result.classification = classify(repo, metadata, readme)
     if result.classification != "honeypot":
         result.classification_reason = "not a honeypot; skipped ethics extraction"
         result.notes = f"docs present: {doc_files}"
         return result
 
-    # Prompt Chaining — summarise, then structure
+    # Prompt Chaining - summarise, then structure
     docs = f"{metadata}\n\nDocumentation files: {doc_files}\n\n{readme}"
     extracted = extract_ethics(docs)
     result.has_ethics_statement = bool(extracted.get("has_ethics_statement"))
@@ -231,7 +231,7 @@ def audit_one(repo: str) -> AuditResult:
     result.notes = extracted.get("summary", "")
 
     
-    # Reflection — verify each quote is really in the source
+    # Reflection - verify each quote is really in the source
     result.verification, result.ethics_quotes = verify(docs, result.ethics_quotes)
     result.has_ethics_statement = bool(result.ethics_quotes)
 

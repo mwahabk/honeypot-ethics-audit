@@ -730,7 +730,7 @@ wheels = [
 [[package]]
 name = "project-1"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "ipykernel" },
     { name = "langchain-core" },
