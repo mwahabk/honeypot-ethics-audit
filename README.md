@@ -1,17 +1,20 @@
 # Project 1 - Honeypot Documentation Audit
 
 **CSCI 5996 - Agentic AI**
-Muhammad Wahab Khan
+Muhammad Wahab Khan 
 
 An agentic pipeline that audits open-source "honeypot" repositories on GitHub
 and reports whether their documentation says anything about the ethical or
 legal considerations of deploying one.
 
-The agent is not simulated. The examples in Chapters 1–5 use placeholder
+The agent is not simulated. The examples in Chapters 1-5 use placeholder
 handlers - `booking_handler(req)` returns the string `"Booking Handler
 processed '{req}'"` and nothing is booked. This pipeline calls the live GitHub
 REST API. Every repository it reports on is fetched at run time, and every
 quoted sentence is checked against the text that was actually retrieved.
+
+**Result:** of 9 honeypot repositories audited, 1 (11%) documents ethical or
+legal considerations of deployment in its repository documentation.
 
 ## The five patterns
 
@@ -53,6 +56,9 @@ quoted sentence is checked against the text that was actually retrieved.
    ```
    GITHUB_TOKEN=ghp_...   # raises GitHub's rate limit from 60 to 5000/hr
    ```
+
+   To re-run the committed results only, no key is needed at all - see
+   [Caching](#caching) below.
 
 4. Open `demo.ipynb`, select the `.venv` kernel, and run the cells top to
    bottom.
@@ -97,6 +103,10 @@ cache, a handful of development runs would exhaust the quota. With it,
 re-running the pipeline over repositories already seen costs nothing and needs
 no network, which also makes the demo reproducible.
 
+**The `.cache/` directory is committed to this repository**, so `demo.ipynb`
+can be re-run end to end with no API key and no quota. Delete it, or call
+`cache.clear()`, to force fresh calls.
+
 ```python
 import cache
 cache.stats()          # entries per namespace
@@ -130,7 +140,10 @@ docs.cowrie.org, off-repo and outside this scope. The claim is therefore that
 never does.
 
 Routing decisions come from an LLM reading a README, and no ground-truth labels
-exist for this corpus, so no accuracy figure is claimed. A rule-based triage
-layer in front of the LLM router - as the Routing chapter suggests - would also
-cut cost, since repositories with `honeypot` in their GitHub topics need no
-model call at all.
+exist for this corpus, so no accuracy figure is claimed. The three non-honeypot
+repositories in the input set (a link list, a threat-intelligence SDK, and a
+threat-sharing platform) were all classified as something other than honeypot,
+which shows the router discriminates, but a hand-labelled sample would be
+needed to state an accuracy figure. A rule-based triage layer in front of the
+LLM router - as the Routing chapter suggests - would also cut cost, since
+repositories with `honeypot` in their GitHub topics need no model call at all.
