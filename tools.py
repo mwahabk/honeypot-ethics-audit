@@ -45,7 +45,10 @@ def _get_json(url: str) -> Optional[dict]:
         return response.json()
 
     result = cache.cached("github", url, fetch)
-    return None if isinstance(result, dict) and "_error" in result else result
+    if isinstance(result, dict) and "_error" in result:
+        cache.put("github", url, None)   # don't persist transient failures
+        return None
+    return result
 
 
 @tool
