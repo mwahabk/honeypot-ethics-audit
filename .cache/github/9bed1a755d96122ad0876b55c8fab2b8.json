@@ -1,0 +1,453 @@
+{
+  "payload": "https://api.github.com/repos/honeytrap/honeytrap/contents/",
+  "value": [
+    {
+      "name": ".gitignore",
+      "path": ".gitignore",
+      "sha": "f184fcd1d677adc5ae2980132ddbdbf9a2620d81",
+      "size": 300,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/.gitignore?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/blob/master/.gitignore",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/f184fcd1d677adc5ae2980132ddbdbf9a2620d81",
+      "download_url": "https://raw.githubusercontent.com/honeytrap/honeytrap/master/.gitignore",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/.gitignore?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/f184fcd1d677adc5ae2980132ddbdbf9a2620d81",
+        "html": "https://github.com/honeytrap/honeytrap/blob/master/.gitignore"
+      }
+    },
+    {
+      "name": ".golangci.yml",
+      "path": ".golangci.yml",
+      "sha": "0848989a27672fac1db2cbbbc720433b903fa61e",
+      "size": 858,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/.golangci.yml?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/blob/master/.golangci.yml",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/0848989a27672fac1db2cbbbc720433b903fa61e",
+      "download_url": "https://raw.githubusercontent.com/honeytrap/honeytrap/master/.golangci.yml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/.golangci.yml?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/0848989a27672fac1db2cbbbc720433b903fa61e",
+        "html": "https://github.com/honeytrap/honeytrap/blob/master/.golangci.yml"
+      }
+    },
+    {
+      "name": ".gometalinter.json",
+      "path": ".gometalinter.json",
+      "sha": "4cdb8ec72676ad588c63b7ca3027a086d4cc4c49",
+      "size": 489,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/.gometalinter.json?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/blob/master/.gometalinter.json",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/4cdb8ec72676ad588c63b7ca3027a086d4cc4c49",
+      "download_url": "https://raw.githubusercontent.com/honeytrap/honeytrap/master/.gometalinter.json",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/.gometalinter.json?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/4cdb8ec72676ad588c63b7ca3027a086d4cc4c49",
+        "html": "https://github.com/honeytrap/honeytrap/blob/master/.gometalinter.json"
+      }
+    },
+    {
+      "name": ".travis.yml",
+      "path": ".travis.yml",
+      "sha": "a45d1e71cc450c6422cfd98d1cffb5929892961d",
+      "size": 1402,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/.travis.yml?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/blob/master/.travis.yml",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/a45d1e71cc450c6422cfd98d1cffb5929892961d",
+      "download_url": "https://raw.githubusercontent.com/honeytrap/honeytrap/master/.travis.yml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/.travis.yml?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/a45d1e71cc450c6422cfd98d1cffb5929892961d",
+        "html": "https://github.com/honeytrap/honeytrap/blob/master/.travis.yml"
+      }
+    },
+    {
+      "name": "CONTRIBUTING.md",
+      "path": "CONTRIBUTING.md",
+      "sha": "4beeecada367a406a3e7842038fc8d75ffd5fda3",
+      "size": 2607,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/CONTRIBUTING.md?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/blob/master/CONTRIBUTING.md",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/4beeecada367a406a3e7842038fc8d75ffd5fda3",
+      "download_url": "https://raw.githubusercontent.com/honeytrap/honeytrap/master/CONTRIBUTING.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/CONTRIBUTING.md?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/4beeecada367a406a3e7842038fc8d75ffd5fda3",
+        "html": "https://github.com/honeytrap/honeytrap/blob/master/CONTRIBUTING.md"
+      }
+    },
+    {
+      "name": "Dockerfile",
+      "path": "Dockerfile",
+      "sha": "9d7601723fc14941aa33eeaa04ffd2a7ae36f978",
+      "size": 821,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/Dockerfile?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/blob/master/Dockerfile",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/9d7601723fc14941aa33eeaa04ffd2a7ae36f978",
+      "download_url": "https://raw.githubusercontent.com/honeytrap/honeytrap/master/Dockerfile",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/Dockerfile?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/9d7601723fc14941aa33eeaa04ffd2a7ae36f978",
+        "html": "https://github.com/honeytrap/honeytrap/blob/master/Dockerfile"
+      }
+    },
+    {
+      "name": "Dockerfile-scratch",
+      "path": "Dockerfile-scratch",
+      "sha": "120eda570a58f52289d2b6db5c2117c6fc1341b9",
+      "size": 807,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/Dockerfile-scratch?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/blob/master/Dockerfile-scratch",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/120eda570a58f52289d2b6db5c2117c6fc1341b9",
+      "download_url": "https://raw.githubusercontent.com/honeytrap/honeytrap/master/Dockerfile-scratch",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/Dockerfile-scratch?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/120eda570a58f52289d2b6db5c2117c6fc1341b9",
+        "html": "https://github.com/honeytrap/honeytrap/blob/master/Dockerfile-scratch"
+      }
+    },
+    {
+      "name": "LICENSE",
+      "path": "LICENSE",
+      "sha": "f41ec758750e8bdeec042f204d26408dc828ebf2",
+      "size": 610,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/LICENSE?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/blob/master/LICENSE",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/f41ec758750e8bdeec042f204d26408dc828ebf2",
+      "download_url": "https://raw.githubusercontent.com/honeytrap/honeytrap/master/LICENSE",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/LICENSE?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/f41ec758750e8bdeec042f204d26408dc828ebf2",
+        "html": "https://github.com/honeytrap/honeytrap/blob/master/LICENSE"
+      }
+    },
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "sha": "c0e5618a05840cb8498fec65e13b739fd305824f",
+      "size": 3621,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/README.md?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/blob/master/README.md",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/c0e5618a05840cb8498fec65e13b739fd305824f",
+      "download_url": "https://raw.githubusercontent.com/honeytrap/honeytrap/master/README.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/README.md?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/c0e5618a05840cb8498fec65e13b739fd305824f",
+        "html": "https://github.com/honeytrap/honeytrap/blob/master/README.md"
+      }
+    },
+    {
+      "name": "cmd",
+      "path": "cmd",
+      "sha": "b6ee513f694e3c28a2e3c771681e2a5bcb4da3ae",
+      "size": 0,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/cmd?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/tree/master/cmd",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/b6ee513f694e3c28a2e3c771681e2a5bcb4da3ae",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/cmd?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/b6ee513f694e3c28a2e3c771681e2a5bcb4da3ae",
+        "html": "https://github.com/honeytrap/honeytrap/tree/master/cmd"
+      }
+    },
+    {
+      "name": "config",
+      "path": "config",
+      "sha": "44e07d9de42bf5fabdc6f52af7b6cb0fe6b952c2",
+      "size": 0,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/config?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/tree/master/config",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/44e07d9de42bf5fabdc6f52af7b6cb0fe6b952c2",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/config?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/44e07d9de42bf5fabdc6f52af7b6cb0fe6b952c2",
+        "html": "https://github.com/honeytrap/honeytrap/tree/master/config"
+      }
+    },
+    {
+      "name": "director",
+      "path": "director",
+      "sha": "af0618b9e8ca33ea99a3a0a1c7992a4646065a26",
+      "size": 0,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/director?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/tree/master/director",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/af0618b9e8ca33ea99a3a0a1c7992a4646065a26",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/director?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/af0618b9e8ca33ea99a3a0a1c7992a4646065a26",
+        "html": "https://github.com/honeytrap/honeytrap/tree/master/director"
+      }
+    },
+    {
+      "name": "dockerize.sh",
+      "path": "dockerize.sh",
+      "sha": "c985dba0e10050de5bc8a758589fa225fdbfab0d",
+      "size": 265,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/dockerize.sh?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/blob/master/dockerize.sh",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/c985dba0e10050de5bc8a758589fa225fdbfab0d",
+      "download_url": "https://raw.githubusercontent.com/honeytrap/honeytrap/master/dockerize.sh",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/dockerize.sh?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/c985dba0e10050de5bc8a758589fa225fdbfab0d",
+        "html": "https://github.com/honeytrap/honeytrap/blob/master/dockerize.sh"
+      }
+    },
+    {
+      "name": "event",
+      "path": "event",
+      "sha": "aa11cf514d06026524b35a825061fdca0ba6d1e4",
+      "size": 0,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/event?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/tree/master/event",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/aa11cf514d06026524b35a825061fdca0ba6d1e4",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/event?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/aa11cf514d06026524b35a825061fdca0ba6d1e4",
+        "html": "https://github.com/honeytrap/honeytrap/tree/master/event"
+      }
+    },
+    {
+      "name": "go.mod",
+      "path": "go.mod",
+      "sha": "46ea6f2caf9763eae9913446b75bb7bd9bb11fdd",
+      "size": 3252,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/go.mod?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/blob/master/go.mod",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/46ea6f2caf9763eae9913446b75bb7bd9bb11fdd",
+      "download_url": "https://raw.githubusercontent.com/honeytrap/honeytrap/master/go.mod",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/go.mod?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/46ea6f2caf9763eae9913446b75bb7bd9bb11fdd",
+        "html": "https://github.com/honeytrap/honeytrap/blob/master/go.mod"
+      }
+    },
+    {
+      "name": "go.sum",
+      "path": "go.sum",
+      "sha": "aefa6be14dac2d4ca546b5671681d24107b68ef4",
+      "size": 14779,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/go.sum?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/blob/master/go.sum",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/aefa6be14dac2d4ca546b5671681d24107b68ef4",
+      "download_url": "https://raw.githubusercontent.com/honeytrap/honeytrap/master/go.sum",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/go.sum?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/aefa6be14dac2d4ca546b5671681d24107b68ef4",
+        "html": "https://github.com/honeytrap/honeytrap/blob/master/go.sum"
+      }
+    },
+    {
+      "name": "listener",
+      "path": "listener",
+      "sha": "522d3d423704e174141e25985408f7043d8aeb06",
+      "size": 0,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/listener?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/tree/master/listener",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/522d3d423704e174141e25985408f7043d8aeb06",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/listener?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/522d3d423704e174141e25985408f7043d8aeb06",
+        "html": "https://github.com/honeytrap/honeytrap/tree/master/listener"
+      }
+    },
+    {
+      "name": "main.go",
+      "path": "main.go",
+      "sha": "732ff8b019157451632764b37bc76bb4e640cfd9",
+      "size": 827,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/main.go?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/blob/master/main.go",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/732ff8b019157451632764b37bc76bb4e640cfd9",
+      "download_url": "https://raw.githubusercontent.com/honeytrap/honeytrap/master/main.go",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/main.go?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/blobs/732ff8b019157451632764b37bc76bb4e640cfd9",
+        "html": "https://github.com/honeytrap/honeytrap/blob/master/main.go"
+      }
+    },
+    {
+      "name": "messages",
+      "path": "messages",
+      "sha": "c1c47309e548b9df2406815f53f0741f4d3f0bd0",
+      "size": 0,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/messages?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/tree/master/messages",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/c1c47309e548b9df2406815f53f0741f4d3f0bd0",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/messages?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/c1c47309e548b9df2406815f53f0741f4d3f0bd0",
+        "html": "https://github.com/honeytrap/honeytrap/tree/master/messages"
+      }
+    },
+    {
+      "name": "protocol",
+      "path": "protocol",
+      "sha": "4085593f2f251549122d7f3242adf106efa231c1",
+      "size": 0,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/protocol?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/tree/master/protocol",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/4085593f2f251549122d7f3242adf106efa231c1",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/protocol?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/4085593f2f251549122d7f3242adf106efa231c1",
+        "html": "https://github.com/honeytrap/honeytrap/tree/master/protocol"
+      }
+    },
+    {
+      "name": "pushers",
+      "path": "pushers",
+      "sha": "7d97719204adb8167d263e7ce0e3d95908e51f3e",
+      "size": 0,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/pushers?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/tree/master/pushers",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/7d97719204adb8167d263e7ce0e3d95908e51f3e",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/pushers?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/7d97719204adb8167d263e7ce0e3d95908e51f3e",
+        "html": "https://github.com/honeytrap/honeytrap/tree/master/pushers"
+      }
+    },
+    {
+      "name": "scripts",
+      "path": "scripts",
+      "sha": "ae6903bc48cec813e9e3d16062cf38cc10290ea7",
+      "size": 0,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/scripts?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/tree/master/scripts",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/ae6903bc48cec813e9e3d16062cf38cc10290ea7",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/scripts?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/ae6903bc48cec813e9e3d16062cf38cc10290ea7",
+        "html": "https://github.com/honeytrap/honeytrap/tree/master/scripts"
+      }
+    },
+    {
+      "name": "server",
+      "path": "server",
+      "sha": "b6296938979711fe6d3f2f766d7e625d8e8d886f",
+      "size": 0,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/server?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/tree/master/server",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/b6296938979711fe6d3f2f766d7e625d8e8d886f",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/server?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/b6296938979711fe6d3f2f766d7e625d8e8d886f",
+        "html": "https://github.com/honeytrap/honeytrap/tree/master/server"
+      }
+    },
+    {
+      "name": "services",
+      "path": "services",
+      "sha": "b7aa26c670b987bd8ed58a29ca9058d7cb5a9fcd",
+      "size": 0,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/services?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/tree/master/services",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/b7aa26c670b987bd8ed58a29ca9058d7cb5a9fcd",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/services?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/b7aa26c670b987bd8ed58a29ca9058d7cb5a9fcd",
+        "html": "https://github.com/honeytrap/honeytrap/tree/master/services"
+      }
+    },
+    {
+      "name": "sniffer",
+      "path": "sniffer",
+      "sha": "f0f38e39f80e08638ba3d9941bd8377065765a78",
+      "size": 0,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/sniffer?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/tree/master/sniffer",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/f0f38e39f80e08638ba3d9941bd8377065765a78",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/sniffer?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/f0f38e39f80e08638ba3d9941bd8377065765a78",
+        "html": "https://github.com/honeytrap/honeytrap/tree/master/sniffer"
+      }
+    },
+    {
+      "name": "storage",
+      "path": "storage",
+      "sha": "c638365628b7ed98727b22d5cfddd221187f2a1c",
+      "size": 0,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/storage?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/tree/master/storage",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/c638365628b7ed98727b22d5cfddd221187f2a1c",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/storage?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/c638365628b7ed98727b22d5cfddd221187f2a1c",
+        "html": "https://github.com/honeytrap/honeytrap/tree/master/storage"
+      }
+    },
+    {
+      "name": "utils",
+      "path": "utils",
+      "sha": "0e13d2ad94a460f60491be662286697ccb482289",
+      "size": 0,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/utils?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/tree/master/utils",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/0e13d2ad94a460f60491be662286697ccb482289",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/utils?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/0e13d2ad94a460f60491be662286697ccb482289",
+        "html": "https://github.com/honeytrap/honeytrap/tree/master/utils"
+      }
+    },
+    {
+      "name": "web",
+      "path": "web",
+      "sha": "b7c098cae4a4981e6f2b9c763a28cdf540d47cfe",
+      "size": 0,
+      "url": "https://api.github.com/repos/honeytrap/honeytrap/contents/web?ref=master",
+      "html_url": "https://github.com/honeytrap/honeytrap/tree/master/web",
+      "git_url": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/b7c098cae4a4981e6f2b9c763a28cdf540d47cfe",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/honeytrap/honeytrap/contents/web?ref=master",
+        "git": "https://api.github.com/repos/honeytrap/honeytrap/git/trees/b7c098cae4a4981e6f2b9c763a28cdf540d47cfe",
+        "html": "https://github.com/honeytrap/honeytrap/tree/master/web"
+      }
+    }
+  ]
+}

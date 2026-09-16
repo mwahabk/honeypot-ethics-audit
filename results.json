@@ -29,5 +29,86 @@
     "ethics_quotes": [],
     "verification": "n/a",
     "notes": "NO ETHICS CONTENT."
+  },
+  {
+    "repo": "DinoTools/dionaea",
+    "classification": "honeypot",
+    "classification_reason": "",
+    "has_ethics_statement": false,
+    "ethics_quotes": [],
+    "verification": "n/a",
+    "notes": "NO ETHICS CONTENT."
+  },
+  {
+    "repo": "mushorg/conpot",
+    "classification": "honeypot",
+    "classification_reason": "",
+    "has_ethics_statement": false,
+    "ethics_quotes": [],
+    "verification": "n/a",
+    "notes": "NO ETHICS CONTENT"
+  },
+  {
+    "repo": "mushorg/snare",
+    "classification": "honeypot",
+    "classification_reason": "",
+    "has_ethics_statement": false,
+    "ethics_quotes": [],
+    "verification": "n/a",
+    "notes": "NO ETHICS CONTENT"
+  },
+  {
+    "repo": "johnnykv/heralding",
+    "classification": "honeypot",
+    "classification_reason": "",
+    "has_ethics_statement": false,
+    "ethics_quotes": [],
+    "verification": "n/a",
+    "notes": "NO ETHICS CONTENT."
+  },
+  {
+    "repo": "foospidy/HoneyPy",
+    "classification": "honeypot",
+    "classification_reason": "",
+    "has_ethics_statement": false,
+    "ethics_quotes": [],
+    "verification": "n/a",
+    "notes": "NO ETHICS CONTENT."
+  },
+  {
+    "repo": "honeytrap/honeytrap",
+    "classification": "honeypot",
+    "classification_reason": "",
+    "has_ethics_statement": false,
+    "ethics_quotes": [],
+    "verification": "n/a",
+    "notes": "NO ETHICS CONTENT"
+  },
+  {
+    "repo": "paralax/awesome-honeypots",
+    "classification": "other",
+    "classification_reason": "not a honeypot; skipped ethics extraction",
+    "has_ethics_statement": false,
+    "ethics_quotes": [],
+    "verification": "",
+    "notes": "docs present: CONTRIBUTING.md, LICENSE, README.md, README_CN.md"
+  },
+  {
+    "repo": "ThreatConnect-Inc/tcex",
+    "classification": "other",
+    "classification_reason": "not a honeypot; skipped ethics extraction",
+    "has_ethics_statement": false,
+    "ethics_quotes": [],
+    "verification": "",
+    "notes": "docs present: LICENSE, README.md"
+  },
+  {
+    "repo": "MISP/MISP",
+    "classification": "detection_tool",
+    "classification_reason": "not a honeypot; skipped ethics extraction",
+    "has_ethics_statement": false,
+    "ethics_quotes": [],
+    "verification": "",
+    "notes": "docs present: CONTRIBUTING.md, LICENSE, README.debian, README.md, SECURITY.md, code_of_conduct.md, docs"
   }
 ]

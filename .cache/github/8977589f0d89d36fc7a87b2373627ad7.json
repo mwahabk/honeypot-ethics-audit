@@ -1,0 +1,213 @@
+{
+  "payload": "https://api.github.com/repos/mushorg/snare/contents/",
+  "value": [
+    {
+      "name": ".coveragerc",
+      "path": ".coveragerc",
+      "sha": "2301243c8400da8046858a8cbfc8a5abfad9b5d7",
+      "size": 30,
+      "url": "https://api.github.com/repos/mushorg/snare/contents/.coveragerc?ref=main",
+      "html_url": "https://github.com/mushorg/snare/blob/main/.coveragerc",
+      "git_url": "https://api.github.com/repos/mushorg/snare/git/blobs/2301243c8400da8046858a8cbfc8a5abfad9b5d7",
+      "download_url": "https://raw.githubusercontent.com/mushorg/snare/main/.coveragerc",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/mushorg/snare/contents/.coveragerc?ref=main",
+        "git": "https://api.github.com/repos/mushorg/snare/git/blobs/2301243c8400da8046858a8cbfc8a5abfad9b5d7",
+        "html": "https://github.com/mushorg/snare/blob/main/.coveragerc"
+      }
+    },
+    {
+      "name": ".github",
+      "path": ".github",
+      "sha": "a5bff27c96d587f5af616c70d314e84b21ef6220",
+      "size": 0,
+      "url": "https://api.github.com/repos/mushorg/snare/contents/.github?ref=main",
+      "html_url": "https://github.com/mushorg/snare/tree/main/.github",
+      "git_url": "https://api.github.com/repos/mushorg/snare/git/trees/a5bff27c96d587f5af616c70d314e84b21ef6220",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/mushorg/snare/contents/.github?ref=main",
+        "git": "https://api.github.com/repos/mushorg/snare/git/trees/a5bff27c96d587f5af616c70d314e84b21ef6220",
+        "html": "https://github.com/mushorg/snare/tree/main/.github"
+      }
+    },
+    {
+      "name": ".gitignore",
+      "path": ".gitignore",
+      "sha": "3fb6383195de1c67251b8d4042bfa8279e074618",
+      "size": 202,
+      "url": "https://api.github.com/repos/mushorg/snare/contents/.gitignore?ref=main",
+      "html_url": "https://github.com/mushorg/snare/blob/main/.gitignore",
+      "git_url": "https://api.github.com/repos/mushorg/snare/git/blobs/3fb6383195de1c67251b8d4042bfa8279e074618",
+      "download_url": "https://raw.githubusercontent.com/mushorg/snare/main/.gitignore",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/mushorg/snare/contents/.gitignore?ref=main",
+        "git": "https://api.github.com/repos/mushorg/snare/git/blobs/3fb6383195de1c67251b8d4042bfa8279e074618",
+        "html": "https://github.com/mushorg/snare/blob/main/.gitignore"
+      }
+    },
+    {
+      "name": "Dockerfile",
+      "path": "Dockerfile",
+      "sha": "dc5e465ce9bfc0e8342f2ea6de94f5e0b73c7304",
+      "size": 571,
+      "url": "https://api.github.com/repos/mushorg/snare/contents/Dockerfile?ref=main",
+      "html_url": "https://github.com/mushorg/snare/blob/main/Dockerfile",
+      "git_url": "https://api.github.com/repos/mushorg/snare/git/blobs/dc5e465ce9bfc0e8342f2ea6de94f5e0b73c7304",
+      "download_url": "https://raw.githubusercontent.com/mushorg/snare/main/Dockerfile",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/mushorg/snare/contents/Dockerfile?ref=main",
+        "git": "https://api.github.com/repos/mushorg/snare/git/blobs/dc5e465ce9bfc0e8342f2ea6de94f5e0b73c7304",
+        "html": "https://github.com/mushorg/snare/blob/main/Dockerfile"
+      }
+    },
+    {
+      "name": "LICENSE",
+      "path": "LICENSE",
+      "sha": "9cecc1d4669ee8af2ca727a5d8cde10cd8b2d7cc",
+      "size": 35141,
+      "url": "https://api.github.com/repos/mushorg/snare/contents/LICENSE?ref=main",
+      "html_url": "https://github.com/mushorg/snare/blob/main/LICENSE",
+      "git_url": "https://api.github.com/repos/mushorg/snare/git/blobs/9cecc1d4669ee8af2ca727a5d8cde10cd8b2d7cc",
+      "download_url": "https://raw.githubusercontent.com/mushorg/snare/main/LICENSE",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/mushorg/snare/contents/LICENSE?ref=main",
+        "git": "https://api.github.com/repos/mushorg/snare/git/blobs/9cecc1d4669ee8af2ca727a5d8cde10cd8b2d7cc",
+        "html": "https://github.com/mushorg/snare/blob/main/LICENSE"
+      }
+    },
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "sha": "e5122ee8c116f23150b8c170e27085cbf4e43c4e",
+      "size": 3230,
+      "url": "https://api.github.com/repos/mushorg/snare/contents/README.md?ref=main",
+      "html_url": "https://github.com/mushorg/snare/blob/main/README.md",
+      "git_url": "https://api.github.com/repos/mushorg/snare/git/blobs/e5122ee8c116f23150b8c170e27085cbf4e43c4e",
+      "download_url": "https://raw.githubusercontent.com/mushorg/snare/main/README.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/mushorg/snare/contents/README.md?ref=main",
+        "git": "https://api.github.com/repos/mushorg/snare/git/blobs/e5122ee8c116f23150b8c170e27085cbf4e43c4e",
+        "html": "https://github.com/mushorg/snare/blob/main/README.md"
+      }
+    },
+    {
+      "name": "bin",
+      "path": "bin",
+      "sha": "c6e3cb47571f0bcc35c770dbdcc5f26e342765e5",
+      "size": 0,
+      "url": "https://api.github.com/repos/mushorg/snare/contents/bin?ref=main",
+      "html_url": "https://github.com/mushorg/snare/tree/main/bin",
+      "git_url": "https://api.github.com/repos/mushorg/snare/git/trees/c6e3cb47571f0bcc35c770dbdcc5f26e342765e5",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/mushorg/snare/contents/bin?ref=main",
+        "git": "https://api.github.com/repos/mushorg/snare/git/trees/c6e3cb47571f0bcc35c770dbdcc5f26e342765e5",
+        "html": "https://github.com/mushorg/snare/tree/main/bin"
+      }
+    },
+    {
+      "name": "docker-compose.yml",
+      "path": "docker-compose.yml",
+      "sha": "b1be5905f2d488fd385df14eb074d7bd95c41063",
+      "size": 269,
+      "url": "https://api.github.com/repos/mushorg/snare/contents/docker-compose.yml?ref=main",
+      "html_url": "https://github.com/mushorg/snare/blob/main/docker-compose.yml",
+      "git_url": "https://api.github.com/repos/mushorg/snare/git/blobs/b1be5905f2d488fd385df14eb074d7bd95c41063",
+      "download_url": "https://raw.githubusercontent.com/mushorg/snare/main/docker-compose.yml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/mushorg/snare/contents/docker-compose.yml?ref=main",
+        "git": "https://api.github.com/repos/mushorg/snare/git/blobs/b1be5905f2d488fd385df14eb074d7bd95c41063",
+        "html": "https://github.com/mushorg/snare/blob/main/docker-compose.yml"
+      }
+    },
+    {
+      "name": "docs",
+      "path": "docs",
+      "sha": "dd47dba08a4da1dd8d9ed2ba7bebf65ff74f6c41",
+      "size": 0,
+      "url": "https://api.github.com/repos/mushorg/snare/contents/docs?ref=main",
+      "html_url": "https://github.com/mushorg/snare/tree/main/docs",
+      "git_url": "https://api.github.com/repos/mushorg/snare/git/trees/dd47dba08a4da1dd8d9ed2ba7bebf65ff74f6c41",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/mushorg/snare/contents/docs?ref=main",
+        "git": "https://api.github.com/repos/mushorg/snare/git/trees/dd47dba08a4da1dd8d9ed2ba7bebf65ff74f6c41",
+        "html": "https://github.com/mushorg/snare/tree/main/docs"
+      }
+    },
+    {
+      "name": "readthedocs.yml",
+      "path": "readthedocs.yml",
+      "sha": "d53ffa68b80a0cca8d222d77cf5786c5723ba2fc",
+      "size": 47,
+      "url": "https://api.github.com/repos/mushorg/snare/contents/readthedocs.yml?ref=main",
+      "html_url": "https://github.com/mushorg/snare/blob/main/readthedocs.yml",
+      "git_url": "https://api.github.com/repos/mushorg/snare/git/blobs/d53ffa68b80a0cca8d222d77cf5786c5723ba2fc",
+      "download_url": "https://raw.githubusercontent.com/mushorg/snare/main/readthedocs.yml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/mushorg/snare/contents/readthedocs.yml?ref=main",
+        "git": "https://api.github.com/repos/mushorg/snare/git/blobs/d53ffa68b80a0cca8d222d77cf5786c5723ba2fc",
+        "html": "https://github.com/mushorg/snare/blob/main/readthedocs.yml"
+      }
+    },
+    {
+      "name": "requirements.txt",
+      "path": "requirements.txt",
+      "sha": "7828d6f385a2f17a82691f7a97850d2962b0966a",
+      "size": 112,
+      "url": "https://api.github.com/repos/mushorg/snare/contents/requirements.txt?ref=main",
+      "html_url": "https://github.com/mushorg/snare/blob/main/requirements.txt",
+      "git_url": "https://api.github.com/repos/mushorg/snare/git/blobs/7828d6f385a2f17a82691f7a97850d2962b0966a",
+      "download_url": "https://raw.githubusercontent.com/mushorg/snare/main/requirements.txt",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/mushorg/snare/contents/requirements.txt?ref=main",
+        "git": "https://api.github.com/repos/mushorg/snare/git/blobs/7828d6f385a2f17a82691f7a97850d2962b0966a",
+        "html": "https://github.com/mushorg/snare/blob/main/requirements.txt"
+      }
+    },
+    {
+      "name": "setup.py",
+      "path": "setup.py",
+      "sha": "b4868518900bf8c6529524f310b4bebbf55a67fa",
+      "size": 402,
+      "url": "https://api.github.com/repos/mushorg/snare/contents/setup.py?ref=main",
+      "html_url": "https://github.com/mushorg/snare/blob/main/setup.py",
+      "git_url": "https://api.github.com/repos/mushorg/snare/git/blobs/b4868518900bf8c6529524f310b4bebbf55a67fa",
+      "download_url": "https://raw.githubusercontent.com/mushorg/snare/main/setup.py",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/mushorg/snare/contents/setup.py?ref=main",
+        "git": "https://api.github.com/repos/mushorg/snare/git/blobs/b4868518900bf8c6529524f310b4bebbf55a67fa",
+        "html": "https://github.com/mushorg/snare/blob/main/setup.py"
+      }
+    },
+    {
+      "name": "snare",
+      "path": "snare",
+      "sha": "6f123e2d627f06bfccbc13685b43549184de83e4",
+      "size": 0,
+      "url": "https://api.github.com/repos/mushorg/snare/contents/snare?ref=main",
+      "html_url": "https://github.com/mushorg/snare/tree/main/snare",
+      "git_url": "https://api.github.com/repos/mushorg/snare/git/trees/6f123e2d627f06bfccbc13685b43549184de83e4",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/mushorg/snare/contents/snare?ref=main",
+        "git": "https://api.github.com/repos/mushorg/snare/git/trees/6f123e2d627f06bfccbc13685b43549184de83e4",
+        "html": "https://github.com/mushorg/snare/tree/main/snare"
+      }
+    }
+  ]
+}

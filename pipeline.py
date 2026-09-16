@@ -86,7 +86,10 @@ def ask(prompt_id: str, prompt_value) -> str:
             try:
                 return llm.invoke(prompt_value).content
             except Exception as exc:
-                if "RESOURCE_EXHAUSTED" not in str(exc) and "429" not in str(exc):
+                msg = str(exc)
+                transient = any(s in msg for s in
+                                ("RESOURCE_EXHAUSTED", "429", "503", "UNAVAILABLE", "500"))
+                if not transient:
                     raise
                 if attempt == 5:
                     raise

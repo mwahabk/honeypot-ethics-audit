@@ -1,0 +1,485 @@
+{
+  "payload": "https://api.github.com/repos/cowrie/cowrie/contents/",
+  "value": [
+    {
+      "name": ".dockerignore",
+      "path": ".dockerignore",
+      "sha": "f557c16c14848c6f684698e066ea8370abf71689",
+      "size": 127,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/.dockerignore?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/.dockerignore",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/f557c16c14848c6f684698e066ea8370abf71689",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/.dockerignore",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/.dockerignore?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/f557c16c14848c6f684698e066ea8370abf71689",
+        "html": "https://github.com/cowrie/cowrie/blob/main/.dockerignore"
+      }
+    },
+    {
+      "name": ".gitattributes",
+      "path": ".gitattributes",
+      "sha": "75e0ec9bb9ac44061dd24a04727c6a48940b14ff",
+      "size": 28,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/.gitattributes?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/.gitattributes",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/75e0ec9bb9ac44061dd24a04727c6a48940b14ff",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/.gitattributes",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/.gitattributes?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/75e0ec9bb9ac44061dd24a04727c6a48940b14ff",
+        "html": "https://github.com/cowrie/cowrie/blob/main/.gitattributes"
+      }
+    },
+    {
+      "name": ".github",
+      "path": ".github",
+      "sha": "18e711a05a34c0c394685285e7bfedd6b3babd33",
+      "size": 0,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/.github?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/tree/main/.github",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/trees/18e711a05a34c0c394685285e7bfedd6b3babd33",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/.github?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/trees/18e711a05a34c0c394685285e7bfedd6b3babd33",
+        "html": "https://github.com/cowrie/cowrie/tree/main/.github"
+      }
+    },
+    {
+      "name": ".gitignore",
+      "path": ".gitignore",
+      "sha": "d1d97395f8e2f8dd6e6e4ab9a6c1e029fd3fe2a4",
+      "size": 395,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/.gitignore?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/.gitignore",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/d1d97395f8e2f8dd6e6e4ab9a6c1e029fd3fe2a4",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/.gitignore",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/.gitignore?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/d1d97395f8e2f8dd6e6e4ab9a6c1e029fd3fe2a4",
+        "html": "https://github.com/cowrie/cowrie/blob/main/.gitignore"
+      }
+    },
+    {
+      "name": ".hadolint.yaml",
+      "path": ".hadolint.yaml",
+      "sha": "d16accda5b78571ec0d921d3f8dc061ec2ed6a07",
+      "size": 386,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/.hadolint.yaml?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/.hadolint.yaml",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/d16accda5b78571ec0d921d3f8dc061ec2ed6a07",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/.hadolint.yaml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/.hadolint.yaml?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/d16accda5b78571ec0d921d3f8dc061ec2ed6a07",
+        "html": "https://github.com/cowrie/cowrie/blob/main/.hadolint.yaml"
+      }
+    },
+    {
+      "name": ".pre-commit-config.yaml",
+      "path": ".pre-commit-config.yaml",
+      "sha": "bfcdabedddbff9ce75ea2cac5fd5fc5d2f9f6b29",
+      "size": 930,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/.pre-commit-config.yaml?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/.pre-commit-config.yaml",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/bfcdabedddbff9ce75ea2cac5fd5fc5d2f9f6b29",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/.pre-commit-config.yaml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/.pre-commit-config.yaml?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/bfcdabedddbff9ce75ea2cac5fd5fc5d2f9f6b29",
+        "html": "https://github.com/cowrie/cowrie/blob/main/.pre-commit-config.yaml"
+      }
+    },
+    {
+      "name": ".pyre_configuration",
+      "path": ".pyre_configuration",
+      "sha": "a7372ed8c7a69547bf8e5df51bc741c80e0e90e8",
+      "size": 332,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/.pyre_configuration?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/.pyre_configuration",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/a7372ed8c7a69547bf8e5df51bc741c80e0e90e8",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/.pyre_configuration",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/.pyre_configuration?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/a7372ed8c7a69547bf8e5df51bc741c80e0e90e8",
+        "html": "https://github.com/cowrie/cowrie/blob/main/.pyre_configuration"
+      }
+    },
+    {
+      "name": ".readthedocs.yml",
+      "path": ".readthedocs.yml",
+      "sha": "dd3753b761af8ba64a0931b278f1a2a491a5c7aa",
+      "size": 640,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/.readthedocs.yml?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/.readthedocs.yml",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/dd3753b761af8ba64a0931b278f1a2a491a5c7aa",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/.readthedocs.yml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/.readthedocs.yml?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/dd3753b761af8ba64a0931b278f1a2a491a5c7aa",
+        "html": "https://github.com/cowrie/cowrie/blob/main/.readthedocs.yml"
+      }
+    },
+    {
+      "name": ".yamllint.yml",
+      "path": ".yamllint.yml",
+      "sha": "f438dd65fb639cc568f3a507941a2e6943e7e2ff",
+      "size": 204,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/.yamllint.yml?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/.yamllint.yml",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/f438dd65fb639cc568f3a507941a2e6943e7e2ff",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/.yamllint.yml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/.yamllint.yml?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/f438dd65fb639cc568f3a507941a2e6943e7e2ff",
+        "html": "https://github.com/cowrie/cowrie/blob/main/.yamllint.yml"
+      }
+    },
+    {
+      "name": "CHANGELOG.rst",
+      "path": "CHANGELOG.rst",
+      "sha": "a8311567d118b51984ccd2ce0c7b027abadc3c2b",
+      "size": 21647,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/CHANGELOG.rst?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/CHANGELOG.rst",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/a8311567d118b51984ccd2ce0c7b027abadc3c2b",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/CHANGELOG.rst",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/CHANGELOG.rst?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/a8311567d118b51984ccd2ce0c7b027abadc3c2b",
+        "html": "https://github.com/cowrie/cowrie/blob/main/CHANGELOG.rst"
+      }
+    },
+    {
+      "name": "CONTRIBUTING.rst",
+      "path": "CONTRIBUTING.rst",
+      "sha": "64f25914deaf4e92c47f707973dcb05a142e6f32",
+      "size": 3041,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/CONTRIBUTING.rst?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/CONTRIBUTING.rst",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/64f25914deaf4e92c47f707973dcb05a142e6f32",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/CONTRIBUTING.rst",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/CONTRIBUTING.rst?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/64f25914deaf4e92c47f707973dcb05a142e6f32",
+        "html": "https://github.com/cowrie/cowrie/blob/main/CONTRIBUTING.rst"
+      }
+    },
+    {
+      "name": "INSTALL.rst",
+      "path": "INSTALL.rst",
+      "sha": "7a2e54ebd519d51346115281c002f4e2b8e9f7e2",
+      "size": 15180,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/INSTALL.rst?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/INSTALL.rst",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/7a2e54ebd519d51346115281c002f4e2b8e9f7e2",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/INSTALL.rst",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/INSTALL.rst?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/7a2e54ebd519d51346115281c002f4e2b8e9f7e2",
+        "html": "https://github.com/cowrie/cowrie/blob/main/INSTALL.rst"
+      }
+    },
+    {
+      "name": "LICENSE.rst",
+      "path": "LICENSE.rst",
+      "sha": "e38e416d46219ffa1b92b0df192c1f526e3b180d",
+      "size": 1627,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/LICENSE.rst?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/LICENSE.rst",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/e38e416d46219ffa1b92b0df192c1f526e3b180d",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/LICENSE.rst",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/LICENSE.rst?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/e38e416d46219ffa1b92b0df192c1f526e3b180d",
+        "html": "https://github.com/cowrie/cowrie/blob/main/LICENSE.rst"
+      }
+    },
+    {
+      "name": "LICENSES",
+      "path": "LICENSES",
+      "sha": "01b8e84cba8ad776d50b33a1cedc841333762a2d",
+      "size": 0,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/LICENSES?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/tree/main/LICENSES",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/trees/01b8e84cba8ad776d50b33a1cedc841333762a2d",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/LICENSES?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/trees/01b8e84cba8ad776d50b33a1cedc841333762a2d",
+        "html": "https://github.com/cowrie/cowrie/tree/main/LICENSES"
+      }
+    },
+    {
+      "name": "MANIFEST.in",
+      "path": "MANIFEST.in",
+      "sha": "9e410ea43b07b70b489dfd08620df115a4ec7f84",
+      "size": 138,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/MANIFEST.in?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/MANIFEST.in",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/9e410ea43b07b70b489dfd08620df115a4ec7f84",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/MANIFEST.in",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/MANIFEST.in?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/9e410ea43b07b70b489dfd08620df115a4ec7f84",
+        "html": "https://github.com/cowrie/cowrie/blob/main/MANIFEST.in"
+      }
+    },
+    {
+      "name": "Makefile",
+      "path": "Makefile",
+      "sha": "4a2b7c3cbb5ab1b8d036a0e3a1d084ba1759d87a",
+      "size": 4556,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/Makefile?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/Makefile",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/4a2b7c3cbb5ab1b8d036a0e3a1d084ba1759d87a",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/Makefile",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/Makefile?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/4a2b7c3cbb5ab1b8d036a0e3a1d084ba1759d87a",
+        "html": "https://github.com/cowrie/cowrie/blob/main/Makefile"
+      }
+    },
+    {
+      "name": "README.rst",
+      "path": "README.rst",
+      "sha": "e5dd71da26f8f8a58f40054e845a82bf12e0ccd9",
+      "size": 5725,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/README.rst?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/README.rst",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/e5dd71da26f8f8a58f40054e845a82bf12e0ccd9",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/README.rst",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/README.rst?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/e5dd71da26f8f8a58f40054e845a82bf12e0ccd9",
+        "html": "https://github.com/cowrie/cowrie/blob/main/README.rst"
+      }
+    },
+    {
+      "name": "REUSE.toml",
+      "path": "REUSE.toml",
+      "sha": "614a33d2fb3eb5211681a86548b551c6cc8966de",
+      "size": 3700,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/REUSE.toml?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/REUSE.toml",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/614a33d2fb3eb5211681a86548b551c6cc8966de",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/REUSE.toml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/REUSE.toml?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/614a33d2fb3eb5211681a86548b551c6cc8966de",
+        "html": "https://github.com/cowrie/cowrie/blob/main/REUSE.toml"
+      }
+    },
+    {
+      "name": "TODO.md",
+      "path": "TODO.md",
+      "sha": "235905e32da76f218f5fa9ff13321c6ff2108584",
+      "size": 1079,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/TODO.md?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/TODO.md",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/235905e32da76f218f5fa9ff13321c6ff2108584",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/TODO.md",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/TODO.md?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/235905e32da76f218f5fa9ff13321c6ff2108584",
+        "html": "https://github.com/cowrie/cowrie/blob/main/TODO.md"
+      }
+    },
+    {
+      "name": "bin",
+      "path": "bin",
+      "sha": "caf1e60a95edbe05e3b0a4be53ca6b97a4b9115d",
+      "size": 0,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/bin?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/tree/main/bin",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/trees/caf1e60a95edbe05e3b0a4be53ca6b97a4b9115d",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/bin?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/trees/caf1e60a95edbe05e3b0a4be53ca6b97a4b9115d",
+        "html": "https://github.com/cowrie/cowrie/tree/main/bin"
+      }
+    },
+    {
+      "name": "docker",
+      "path": "docker",
+      "sha": "1ff4c36384847a6ea3ab371c4d3fb77168a5b543",
+      "size": 0,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/docker?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/tree/main/docker",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/trees/1ff4c36384847a6ea3ab371c4d3fb77168a5b543",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/docker?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/trees/1ff4c36384847a6ea3ab371c4d3fb77168a5b543",
+        "html": "https://github.com/cowrie/cowrie/tree/main/docker"
+      }
+    },
+    {
+      "name": "docs",
+      "path": "docs",
+      "sha": "acdf7228348e4dd5d71e1f566d188f8a29d4028f",
+      "size": 0,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/docs?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/tree/main/docs",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/trees/acdf7228348e4dd5d71e1f566d188f8a29d4028f",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/docs?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/trees/acdf7228348e4dd5d71e1f566d188f8a29d4028f",
+        "html": "https://github.com/cowrie/cowrie/tree/main/docs"
+      }
+    },
+    {
+      "name": "etc",
+      "path": "etc",
+      "sha": "8c127723751620e28e5d8ef2fb4b6b27ef94e84b",
+      "size": 0,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/etc?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/tree/main/etc",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/trees/8c127723751620e28e5d8ef2fb4b6b27ef94e84b",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/etc?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/trees/8c127723751620e28e5d8ef2fb4b6b27ef94e84b",
+        "html": "https://github.com/cowrie/cowrie/tree/main/etc"
+      }
+    },
+    {
+      "name": "flake.lock",
+      "path": "flake.lock",
+      "sha": "a9fc5f55eac0e4fde5800224d0c9dd0346d683e5",
+      "size": 569,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/flake.lock?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/flake.lock",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/a9fc5f55eac0e4fde5800224d0c9dd0346d683e5",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/flake.lock",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/flake.lock?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/a9fc5f55eac0e4fde5800224d0c9dd0346d683e5",
+        "html": "https://github.com/cowrie/cowrie/blob/main/flake.lock"
+      }
+    },
+    {
+      "name": "flake.nix",
+      "path": "flake.nix",
+      "sha": "24cd9bf031b7df920ed89d9bff4bd357a83c4aef",
+      "size": 2755,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/flake.nix?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/flake.nix",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/24cd9bf031b7df920ed89d9bff4bd357a83c4aef",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/flake.nix",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/flake.nix?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/24cd9bf031b7df920ed89d9bff4bd357a83c4aef",
+        "html": "https://github.com/cowrie/cowrie/blob/main/flake.nix"
+      }
+    },
+    {
+      "name": "pyproject.toml",
+      "path": "pyproject.toml",
+      "sha": "e02d452f1ba907ec3a0899384437f9d9d78f57c3",
+      "size": 9999,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/pyproject.toml?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/pyproject.toml",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/e02d452f1ba907ec3a0899384437f9d9d78f57c3",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/pyproject.toml",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/pyproject.toml?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/e02d452f1ba907ec3a0899384437f9d9d78f57c3",
+        "html": "https://github.com/cowrie/cowrie/blob/main/pyproject.toml"
+      }
+    },
+    {
+      "name": "requirements-output.txt",
+      "path": "requirements-output.txt",
+      "sha": "7a6b299494461547093af3ab2354c2a3b09957a0",
+      "size": 1054,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/requirements-output.txt?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/requirements-output.txt",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/7a6b299494461547093af3ab2354c2a3b09957a0",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/requirements-output.txt",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/requirements-output.txt?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/7a6b299494461547093af3ab2354c2a3b09957a0",
+        "html": "https://github.com/cowrie/cowrie/blob/main/requirements-output.txt"
+      }
+    },
+    {
+      "name": "requirements.txt",
+      "path": "requirements.txt",
+      "sha": "f67425a1c8aea81db717a07603718a788afd6bd5",
+      "size": 308,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/requirements.txt?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/blob/main/requirements.txt",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/blobs/f67425a1c8aea81db717a07603718a788afd6bd5",
+      "download_url": "https://raw.githubusercontent.com/cowrie/cowrie/main/requirements.txt",
+      "type": "file",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/requirements.txt?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/blobs/f67425a1c8aea81db717a07603718a788afd6bd5",
+        "html": "https://github.com/cowrie/cowrie/blob/main/requirements.txt"
+      }
+    },
+    {
+      "name": "src",
+      "path": "src",
+      "sha": "12e844cdacfa69b19ab88ec925a76df6c3e1a73a",
+      "size": 0,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/src?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/tree/main/src",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/trees/12e844cdacfa69b19ab88ec925a76df6c3e1a73a",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/src?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/trees/12e844cdacfa69b19ab88ec925a76df6c3e1a73a",
+        "html": "https://github.com/cowrie/cowrie/tree/main/src"
+      }
+    },
+    {
+      "name": "var",
+      "path": "var",
+      "sha": "c415ef17886de1a86a61fe9338e0776eaa6875f0",
+      "size": 0,
+      "url": "https://api.github.com/repos/cowrie/cowrie/contents/var?ref=main",
+      "html_url": "https://github.com/cowrie/cowrie/tree/main/var",
+      "git_url": "https://api.github.com/repos/cowrie/cowrie/git/trees/c415ef17886de1a86a61fe9338e0776eaa6875f0",
+      "download_url": null,
+      "type": "dir",
+      "_links": {
+        "self": "https://api.github.com/repos/cowrie/cowrie/contents/var?ref=main",
+        "git": "https://api.github.com/repos/cowrie/cowrie/git/trees/c415ef17886de1a86a61fe9338e0776eaa6875f0",
+        "html": "https://github.com/cowrie/cowrie/tree/main/var"
+      }
+    }
+  ]
+}
