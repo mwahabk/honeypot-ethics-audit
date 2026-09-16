@@ -16,6 +16,13 @@ quoted sentence is checked against the text that was actually retrieved.
 **Result:** of 9 honeypot repositories audited, 1 (11%) documents ethical or
 legal considerations of deployment in its repository documentation.
 
+## Quick start
+
+Open **`demo.ipynb`** and run the cells top to bottom. It walks through all five
+patterns with saved output, and the committed cache means it runs without an API
+key or any quota. Full setup instructions are below if you want to run it fresh
+against new repositories.
+
 ## The five patterns
 
 | Pattern | Chapter | Where it lives | What it does here |
